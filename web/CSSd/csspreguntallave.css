@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/10/2021, 09:25:05 PM
+    Author     : yayah
+*/
+
+.barraroja{
+    
+       position: relative;
+	top: -52px;
+	left: -40px;
+        width: 1952px;
+	height: 100px;
+        
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -o-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -moz-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -ms-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+}
+
+.cuadro{
+  margin: auto;
+	top: 223px;
+	left: 49px;
+	width: 600px;
+	height: 310px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(243.31,242.3,242.3,1);
+}
+.boton{
+     position: relative;
+     font-size: 30px;
+    top: 310px;
+    left: 50px;
+    width: 215px;
+    height: 55px;
+    background:rgba(167.88,30.08,63.15,1);   
+} 
+    
+.respuesta{
+        position: relative;
+    top: 150px;
+    left: 100px;
+    width: 398px;
+    height: 59px;
+}
+.texto{
+      position: relative;
+    top: 50px;
+    left: 50px;
+    width: 549px;
+    height: 34px;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: left;
+    color: #000000;
+}
+    
+.regresar{
+       position: relative;
+      font-size: 30px;
+    top: -29px;
+    left: 1322px;
+    width: 206px;
+    height: 45px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(198.69,187.1,189.88,1);
+}
+
+    
+.imagenempredos{
+    
+     position: relative;
+    top: 20px;
+    left: 15px;
+    width: 180px;
+    height: 60px;
+}
+
+    
+    .per{
+       top: 34px;
+    left: 52px;
+    width: 160px;
+    height: 38px;
+    overflow: hidden;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+    
+    
+}

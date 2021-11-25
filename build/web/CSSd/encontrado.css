@@ -1,0 +1,511 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/10/2021, 09:11:20 PM
+    Author     : yayah
+*/
+.barraroja{
+      position: relative;
+    top: -16px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+	background: linear-gradient(180deg, #E01D4C 0%, rgba(224, 29, 76, 0.68) 100%);
+}
+
+ 
+
+
+.cuadro{
+       position: relative;
+    margin: auto;
+    top: -75px;
+    left: 6px;
+    width: 1000px;
+    height: 1956px;
+   
+    
+}
+.imagenempre{
+    
+        position: relative;
+        top: -45px;
+	left: 3px;
+	width: 150px;
+	height: 60px;
+}
+.atras{
+      position: relative;
+    top: -2060px;
+    left: 1330px;
+    width: 206px;
+    height: 45px;
+  -ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(224.19,28.96,75.77,1);
+        font-size: 25px;
+
+}
+.publicar{
+          position: relative;
+    top: 455px;
+    left: 395px;
+    width: 206px;
+    height: 45px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+   background:rgba(224.19,28.96,75.77,1);
+    border: #FFFFFF;
+    font-size: 25px;
+
+}
+.titulo{
+    
+        position: relative;
+        top: 87px;
+	left: 10px;
+	width: 137px;
+	height: 46px;
+	overflow: hidden;
+	
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+}
+.queper{
+        position: relative;
+        top: 154px;
+	left: 10px;
+	width: 230px;
+	height: 46px;
+	overflow: hidden;
+	
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+    
+}
+.foto{
+        position: relative;
+        top: 244px;
+	left: 10px;
+	width: 195px;
+	height: 56px;
+	overflow: hidden;
+	inline-size: auto;
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+}
+.pl{
+   position: relative;
+    top: 294px;
+    left: 11px;
+    width: 244px;
+    height: 46px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+}
+.res{
+    top: 370px;
+    left: 5px;
+    width: 187px;
+    height: 47px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+    position: relative;
+}
+.le{
+           position: relative;
+    top: 430px;
+    left: 10px;
+    width: 289px;
+    height: 47px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+}
+.hde{
+            position: relative;
+    top: 522px;
+    left: 10px;
+    width: 287px;
+    height: 41px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+}
+.introtitu{
+        position: relative;
+	top: -0px;
+	left: 250px;
+	width: 291px;
+	height: 36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 30px;
+}
+.queperd{
+        position: relative;
+	top: 35px;
+	left: 250px;
+	width: 291px;
+	height: 36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 30px;
+    
+    
+}
+.agfoto{
+    position: relative;
+    top: 53px;
+    left: 0px;
+    width: 291px;
+    height: 36px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+    
+
+}
+.pgllave{
+  position: relative;
+    top: 100px;
+    left: 251px;
+    width: 291px;
+    height: 36px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.respu{
+      position: relative;
+    top: 145px;
+    left: 250px;
+    width: 291px;
+    height: 36px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+} 
+.horae{
+position: relative;
+    top: 221px;
+    left: 250px;
+    width: 291px;
+    height: 36px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+
+}
+
+
+.botonfoto{
+    
+        position: relative;
+        top: 35px;
+	left: 600px;
+	width: 116px;
+	height: 37px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(167.88,30.08,63.15,1);
+}
+.lugare{
+    
+          position: relative;
+    top: 370px;
+    left: 652px;
+    width: 141px;
+    height: 26px;
+    border-radius: 30px;
+    border: #FFFFFF;
+    background: rgba(225.27,225.27,225.27,1);
+    
+}
+.perdidos{
+           position: relative;
+    top: -1810px;
+    left: 450px;
+    width: 163px;
+    height: 75px;
+    overflow: hidden;
+    
+    font-size: 40px;
+    text-align: left;
+    color: #FFFCFC;
+}
+  
+    
+.imgpubli{
+top: 86px;
+    left: 570px;
+    width: 134px;
+    height: 111px;
+    background: rgba(255,255,255,1);
+    position: relative;
+    right: -35px;
+}
+.ele{
+    
+        position: relative;
+    top: 545px;
+    left: 13px;
+    width: 304px;
+    height: 210px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+}
+.us1{
+    
+         position: relative;
+    top: 476px;
+    left: -100px;
+    width: 56px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.tecnologico{
+
+        position: relative;
+    top: 398px;
+    left: 12px;
+    width: 56px;
+    height: 26px;
+    font-size: 25px;
+
+}
+.si{
+ position: relative;
+    top: 393px;
+    left: 4px;
+    width: 56px;
+    height: 24px;
+    font-size: 15px;
+    
+}  
+    
+
+
+.ropa1{
+    
+         position: relative;
+    top: 400px;
+    left: 4px;
+    width: 56px;
+    height: 30px;
+    font-size: 25px;
+}
+.r{
+    
+         position: relative;
+    top: 390px;
+    left: 7px;
+    width: 56px;
+    height: 70px;
+    font-size: 15px;
+}
+.us2{
+    
+       position: relative;
+    top: 472px;
+    left: -54px;
+    width: 56px;
+    height: 70px;
+    font-size: 25px;
+    
+    
+}
+
+
+.escolar{
+    
+     position: relative;
+    top: 400px;
+    left: 4px;
+    width: 56px;
+    height: 31px;
+    font-size: 25px;
+    
+}
+.d{
+      position: relative;
+    top: 392px;
+    left: -5px;
+    width: 56px;
+    height: 70px;
+    font-size: 15px;
+    
+}
+.us3{
+      position: relative;
+    top: 472px;
+    left: -74px;
+    width: 56px;
+    height: 70px;
+    font-size: 25px;
+    
+}
+
+.personal{
+    
+    position: relative;
+    top: 420px;
+    left: 7px;
+    width: 33px;
+    height: 67px;
+    font-size: 25px;
+
+}
+.o{
+    position: relative;
+    top: 392px;
+    left: 9px;
+    width: 56px;
+    height: 70px;
+    font-size: 15px; 
+    
+}
+.us4{
+    
+        position: relative;
+    top: 472px;
+    left: -84px;
+    width: 56px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.otro{
+    position: relative;
+    top: 12px;
+    left: 10px;
+    width: 56px;
+    height: 30px;
+    font-size: 15px;
+
+    
+}
+.y{
+    position: relative;
+    top: 392px;
+    left: -4px;
+    width: 56px;
+    height: 70px;
+    font-size: 15px;
+    padding-left: 10px;
+    
+    
+}
+.us5{
+    position: relative;
+    top: 466px;
+    right: 50px;
+    width: 56px;
+    height: 70px;
+    font-size: 5px;
+    
+    
+}
+.per{
+        top: -50px;
+    left: 9px;
+    width: 160px;
+    height: 38px;
+    overflow: hidden;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+    
+}
+*{
+   
+    font:small-caps bold 12px/30px ;
+}
+input{
+    border: white;
+background: rgba(225.27,225.27,225.27,1);
+
+}
+.file-select {
+    position: relative;
+    display: inline-block;
+    left: 580px;
+    top: 150px;
+    border-radius: 30px;
+
+  }
+  
+  .file-select::before {
+    background-color:rgba(224.19,28.96,75.77,1);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    content: 'Seleccionar'; /* testo por defecto */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .file-select input[type="file"] {
+    opacity: 0;
+    width: 200px;
+    height: 32px;
+   
+    
+  }
+  
+  #agfoto::before {
+    content: 'Seleccionar Archivo';
+    
+  }

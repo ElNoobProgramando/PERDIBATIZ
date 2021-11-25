@@ -1,0 +1,604 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1/10/2021, 01:24:11 AM
+    Author     : yayah
+*/
+
+.barraroja{
+      position: relative;
+	top: -20px;
+	left: -40px;
+        width: 1934px;
+	height: 100px;
+        
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -o-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -moz-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -ms-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+}
+#bararojados{
+   position: relative;
+    top: 34px;
+    left: 590px;
+    width: 250px;
+    height: 950px;
+   
+}
+
+.obenco{
+    position: relative;
+    top: 12px;
+    left: 13px;
+    width: 181px;
+    height: 34px;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: left;
+    color: #FDF7F7;
+    
+}
+.obexco{
+    position: relative;
+    top: 49px;
+    left: 5px;
+    width: 174px;
+    height: 284px;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    
+    
+}
+.cate{
+    position: relative;
+        top: 210px;
+	left: 13px;
+	width: 106px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	color:#FFFFFF;
+    
+    
+}
+.obesco{
+        position: relative;
+        top: 250px;
+	left: 52px;
+	width: 159px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	color:#FCF4F4;
+    
+    
+    
+}
+.obetecno{
+        position: relative;
+        top: 300px;
+	left: 52px;
+	width: 187px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	color:#F9F6F6;
+    
+    
+    
+}
+.obeperso{
+        position: relative;
+        top: 360px;
+	left: 52px;
+	width: 146px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	color:#FFFCFC;
+    
+    
+    
+}
+.ropa{
+        position: relative;
+        top: 397px;
+	left: 59px;
+	width: 56px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	color:#FFFBFB;
+    
+    
+    
+}
+.otro{
+        position: relative;
+        top: 440px;
+	left: 52px;
+	width: 49px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	color:#FFFBFB;
+    
+    
+    
+}
+.a{
+        position: relative;
+        top: -820px;
+	left: 1100px;
+	width: 249px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+    
+}
+.b{
+     position: relative;
+        top: -1200px;
+	left: 1000px;
+	width: 249px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+    
+}
+.crearpublicacion{
+    
+    
+}
+.lupa{
+        position: relative;
+        top: -462px;
+	left: 320px;
+	width: 36px;
+	height: 35px;
+}
+.imagenempredos{
+    
+        position: relative;
+        top: 1px;
+	left: 15px;
+	width: 180px;
+	height: 60px;
+}
+.imagenusuario{
+          position: relative;
+    top: -205px;
+    left: 1234px;
+    width: 56px;
+    height: 63px;
+
+    
+}
+.box-two {
+  overflow: auto;
+  position: relative;
+  top: -30px;
+	left: 950px;
+	width: 56px;
+    height: 500px;
+    background:rgba(255,255,255,0);
+}
+.box {
+    
+    position: relative;
+    padding: 10px;
+    float: left;
+    top: -445px;
+    left: 430px;
+    width: 750px;
+    height: 640px;
+    background: rgba(255,255,255,0);
+}
+.si{
+        position: relative;
+      top: -30px;
+	left: 950px;
+	width: 56px;
+        height: 70px;
+
+    
+}
+.rectangulo{
+        position: relative;
+        
+	top: 2px;
+	left: 60px;
+	width: 623px;
+	height: 327px;
+	background:rgba(40,37,37,0.07);
+        -ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+    
+    
+}
+.titupubli{
+        position: relative;
+        top: -106px;
+	left: 250px;
+	width: 182px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 25px;
+	text-align: left;
+	color:#000000;
+    
+}
+.preguntallave{
+      position: relative;
+    top: -85px;
+    left: 16px;
+    width: 237px;
+    height: 40px;
+    -ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(224.19,28.96,75.77,1);
+        font-size: 25px;
+}
+
+.publicaciones
+{
+  position: relative;
+    width: 110px;
+    height: auto;
+    float: right;
+    top: -50%;
+    left: -3%;
+}
+.fecha
+{
+    position: relative;
+    left: 60%;
+    top: 12%;
+}
+.per{
+       top: 34px;
+    left: 52px;
+    width: 160px;
+    height: 38px;
+    overflow: hidden;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+    
+    
+}
+.f{
+    
+    color: black;
+    position: relative;
+    top: -25px;
+}
+.linea{
+   top: 18.5px;
+    left: 3px;
+    width: 185px;
+    height: 1px;
+    background: #000000;
+    position: relative;
+    
+}
+.est{
+    top: 18px;
+    left: 7px;
+    width: 18px;
+    height: 1px;
+    position: relative;
+    
+    
+}
+.bus{
+  
+  top: -95px;
+    left: 572px;
+    width: 600px;
+    height: 48px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    position: relative;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(236.94,236.94,236.94,1);
+    position: relative;
+}
+.bolita{
+    
+    top: 4px;
+    left: 537.99px;
+    width: 40px;
+    height: 40px;
+    -ms-border-radius: 20px / 20px;
+    -o-border-radius: 20px / 20px;
+    -moz-border-radius: 20px / 20px;
+    -webkit-border-radius: 20px / 20px;
+    border-radius: 20px / 20px;
+    background: rgba(224.19,28.96,75.77,1);
+    position: relative;
+
+}
+.fs{
+         top: -17px;
+    left: 269.99px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    
+    
+}
+.api{
+    
+}
+.yea{
+    
+    top: -120px;
+    left: -3px;
+    width: -18px;
+    height: 40px;
+    position: relative;
+
+    
+}
+.info{
+    
+      top: -242px;
+    left: -100px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+
+
+    
+}
+.no{
+      top: -1185px;
+    left: 778.99px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    
+    
+}
+.tecnologico{
+        position: relative;
+    top: 1px;
+    
+    
+    
+    
+}
+.SI{
+    
+      top: -1185px;
+    left: 778.99px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    
+    
+}
+.ventes{
+    
+    
+      top: -25px;
+    left: 18px;
+    width: 45px;
+    height: 40px;
+    position: relative;
+    
+}
+.s{
+      position: sticky;
+        
+	top: -970px;
+	left: 505px;
+	width: 584px;
+	height: 45px;
+	
+	border-radius: 10px;
+	background:rgba(40,37,37,0.07);
+    
+    
+}
+.q{
+    top: 13px;
+	left: 410px;
+	width: 31px;
+	height: 42px;
+        position: relative;
+    
+}
+.api{
+    
+    position: relative;
+    top: 25px;
+   
+    height: 25px;
+    width: 500px;
+}
+.preguntallaves{
+    
+        position: relative;
+    top: -64px;
+
+    left: 6px;
+
+    width: 237px;
+
+    height: 40px;
+
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+
+    border-radius: 30px;
+
+    background: rgba(224.19,28.96,75.77,1);
+    font-size: 25px;
+}
+.qe{
+    position: relative;
+    top: -1271px;
+    left: -137px;
+    
+}
+.clock{
+   font-size: 5em;
+  text-align: center;
+  margin: 1em;
+
+}
+.titupublis{
+     top: -287px;
+	left: 405px;
+	width: 250px;
+	height: 42px;
+        position: relative;
+        font-size: 20px;
+    
+    
+}
+.titupublis1{
+     top: -233px;
+	left: 405px;
+	width: 250px;
+	height: 42px;
+        position: relative;
+        font-size: 20px;
+    
+    
+}
+.creditos{
+    
+    position: relative;
+	top: -20px;
+	left: -40px;
+        width: 1934px;
+	height: 100px;
+        
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -o-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -moz-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: -ms-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+	background: linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
+    
+}
+.noticia{
+  position: relative;
+	top: -470px;
+	left: 585px;
+        width: 927px;
+	height: 100px;
+        font-size: 30px;  
+        color: black;
+    
+}
+.encontrado{
+    position: relative;
+    top: -30px;
+    
+}
+.Buscador{
+     position: relative;
+	top: 5px;
+	left: 623px;
+        width: 317px;
+	height: 28px;
+    
+    
+}
+.twiter{
+    
+    top: -518px;
+    left: 515px;
+    width: 10%;
+    height: 230px;
+    position: relative;
+    overflow: auto;
+    padding: 168px;
+    float: left;
+    color: black;
+    
+}
+.v{
+    position: relative;
+    left: 1282px;
+    width: 237px;
+    height: 40px;
+    -ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(224.19,28.96,75.77,1);
+    font-size: 25px;
+    top: -1230px;
+    
+}
+.g{
+    position: relative;
+    top: -571px;
+    left: 482px;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+.content{
+    position: relative;
+    top: -633px;
+    left: 349px;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+.text {
+position: relative;
+    left: -133px;
+}

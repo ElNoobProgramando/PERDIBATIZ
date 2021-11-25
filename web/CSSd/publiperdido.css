@@ -1,0 +1,539 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/10/2021, 03:41:22 AM
+    Author     : yayah
+*/
+.barraroja{
+    position: relative;
+    top: -16px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+        
+	background: linear-gradient(180deg, #E01D4C 0%, rgba(224, 29, 76, 0.68) 100%);
+}
+
+ 
+
+
+.cuadro{
+       position: relative;
+    margin: auto;
+    top: -75px;
+    left: 6px;
+    width: 1000px;
+    height: 1956px;
+   
+    
+}
+.imagenempre{
+    
+        position: relative;
+        top: -45px;
+	left: 3px;
+	width: 150px;
+	height: 60px;
+}
+.atras{
+      position: relative;
+    top: -2060px;
+    left: 1599px;
+    width: 206px;
+    height: 45px;
+  -ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(224.19,28.96,75.77,1);
+        font-size: 25px;
+
+}
+.publicar{
+          position: relative;
+    top: 455px;
+    left: 395px;
+    width: 206px;
+    height: 45px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+   background:rgba(224.19,28.96,75.77,1);
+    font-size: 30px;
+    font-size: 25px;
+    border: white;
+
+}
+.titulo{
+    
+        position: relative;
+        top: 87px;
+	left: 10px;
+	width: 137px;
+	height: 46px;
+	overflow: hidden;
+	
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+}
+.queper{
+    position: relative;
+    top: 147px;
+    left: 10px;
+    width: 289px;
+    height: 47px;
+    overflow: hidden;
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+    
+}
+.queper1{
+        position: relative;
+        top: 152px;
+	left: 10px;
+	width: 290px;
+	height: 46px;
+	overflow: hidden;
+	
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+    
+}
+.foto{
+        position: relative;
+        top: 244px;
+	left: 10px;
+	width: 195px;
+	height: 56px;
+	overflow: hidden;
+	
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+}
+.pl{
+   position: relative;
+    top: 294px;
+    left: 11px;
+    width: 244px;
+    height: 46px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+}
+.res{
+    top: 370px;
+    left: 5px;
+    width: 187px;
+    height: 47px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+    position: relative;
+}
+.le{
+           position: relative;
+    top: 430px;
+    left: 10px;
+    width: 289px;
+    height: 47px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+}
+.hde{
+            position: relative;
+    top: 522px;
+    left: 10px;
+    width: 287px;
+    height: 41px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+}
+.introtitu{
+        position: relative;
+	top: -0px;
+	left: 250px;
+	width: 291px;
+	height: 36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 30px;
+}
+.queperd{
+    position: relative;
+	top: 35px;
+	left: 253px;
+	width: 291px;
+	height: 36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 30px;
+
+    
+}
+#dod{
+    padding-bottom: 20px;
+}
+.agfoto{
+    position: relative;
+    top: 23px;
+    left: 253px;
+    width: 291px;
+    height: 36px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.pgllave{
+  position: relative;
+    top: 100px;
+    left: 251px;
+    width: 291px;
+    height: 36px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+}
+.respu{
+      position: relative;
+    top: 145px;
+    left: 250px;
+    width: 291px;
+    height: 36px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+
+} 
+.horae{
+position: relative;
+    top: 221px;
+    left: 250px;
+    width: 291px;
+    height: 36px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+
+}
+
+
+.botonfoto{
+    
+        position: relative;
+        top: 35px;
+	left: 600px;
+	width: 116px;
+	height: 37px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(167.88,30.08,63.15,1);
+}
+.lugare{
+    
+    position: relative;
+    top: 370px;
+    left: 552px;
+    width: 241px;
+    height: 26px;
+    border-radius: 30px;
+    border: #FFFFFF;
+    background: rgba(225.27,225.27,225.27,1);
+    
+}
+.perdidos{
+           position: relative;
+    top: -1810px;
+    left: 450px;
+    width: 163px;
+    height: 75px;
+    overflow: hidden;
+    
+    font-size: 40px;
+    text-align: left;
+    color: #FFFCFC;
+}
+  
+    
+.imgpubli{
+top: 86px;
+    left: 570px;
+    width: 134px;
+    height: 111px;
+    background: rgba(255,255,255,1);
+    position: relative;
+    right: -35px;
+}
+
+.ele{
+    
+        position: relative;
+    top: 525px;
+    
+    width: 304px;
+    height: 210px;
+    overflow: hidden;
+    inline-size: auto;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+}
+.us1{
+    
+         position: relative;
+    top: 476px;
+    left: -100px;
+    width: 66px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.tecnologico{
+
+        position: relative;
+    top: 398px;
+    left: 12px;
+    width: 56px;
+    height: 26px;
+    font-size: 15px;
+    
+
+}
+.si{
+ position: relative;
+    top: 393px;
+    left: 4px;
+    width: 56px;
+    height: 24px;
+    font-size: 15px;
+    
+}  
+    
+
+
+.ropa1{
+    
+         position: relative;
+    top: 400px;
+    left: 4px;
+    width: 56px;
+    height: 30px;
+    font-size: 15px;
+}
+.r{
+    
+         position: relative;
+    top: 390px;
+    left: 7px;
+    width: 56px;
+    height: 70px;
+    font-size: 15px;
+}
+.us2{
+    
+       position: relative;
+    top: 472px;
+    left: -54px;
+    width: 56px;
+    height: 70px;
+    font-size: 25px;
+    
+    
+}
+
+
+.escolar{
+    
+     position: relative;
+    top: 400px;
+    left: 4px;
+    width: 56px;
+    height: 31px;
+    font-size: 15px;
+    
+}
+.d{
+      position: relative;
+    top: 392px;
+    left: -5px;
+    width: 56px;
+    height: 70px;
+    font-size: 15px;
+    
+}
+.us3{
+      position: relative;
+    top: 472px;
+    left: -74px;
+    width: 56px;
+    height: 70px;
+    font-size: 25px;
+    
+}
+
+.personal{
+    
+    position: relative;
+    top: 420px;
+    left: 7px;
+    width: 33px;
+    height: 67px;
+    font-size: 15px;
+
+}
+.o{
+    position: relative;
+    top: 392px;
+    left: 9px;
+    width: 56px;
+    height: 70px;
+    font-size: 15px; 
+    
+}
+.us4{
+    
+        position: relative;
+    top: 472px;
+    left: -84px;
+    width: 66px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.otro{
+   position: relative;
+    top: 11px;
+    left: 10px;
+    width: 56px;
+    height: 30px;
+    font-size: 15px;
+   
+    
+
+    
+}
+.y{
+    position: relative;
+    top: 392px;
+    left: -4px;
+    width: 56px;
+    height: 70px;
+    font-size: 15px;
+    padding-left: 10px;
+    
+    
+    
+}
+.us5{
+    position: relative;
+    top: 466px;
+    right: 50px;
+    width: 56px;
+    height: 70px;
+    font-size: 5px;
+    
+    
+}
+.per{
+        top: -50px;
+    left: 9px;
+    width: 160px;
+    height: 38px;
+    overflow: hidden;
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+    
+}
+.lol{
+    
+     position: relative;
+	top: 91px;
+	left: 503px;
+	width: 291px;
+	height: 36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 30px;
+    
+    
+}
+*{
+
+    font:small-caps bold 12px/30px ;
+   
+}
+.opciones{
+padding-top: 50px;
+}
+input{
+    border: white;
+background: rgba(225.27,225.27,225.27,1);
+
+}
+.lela{
+    
+          position: relative;
+    top: 204px;
+    left: 10px;
+    width: 289px;
+    height: 47px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+}
+.dondess{
+    
+      position: relative;
+    top: 127px;
+    left: 552px;
+    width: 241px;
+    height: 26px;
+    border-radius: 30px;
+    border: #FFFFFF;
+    background: rgba(225.27,225.27,225.27,1);
+    
+}
+
