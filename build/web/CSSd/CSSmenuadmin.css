@@ -160,8 +160,8 @@ and open the template in the editor.
 }
 .titupubli{
         position: relative;
-        top: 8px;
-	left: 250px;
+        top: 4px;
+	left: 380px;
 	width: 182px;
 	height: 34px;
 	overflow: hidden;
@@ -353,5 +353,21 @@ and open the template in the editor.
       position: relative;
     top: -401px;
     left: -590px;
+    
+}
+.asu{
+    
+      position: relative;
+    top: -401px;
+    left: -590px;
+    
+    
+}
+.tit{
+    
+        position: relative;
+    top: -401px;
+    left: -590px;
+    
     
 }

@@ -159,7 +159,11 @@
              <br>
             <br>
             <br>
-            <h2> <a href="agregaradmin.jsp" class="agregarusuario"><button >Agregar Usuario</button></a></h2>
+            <h2> <a href="agregaradmin.jsp" class="agregarusuario"><button >Agregar Administrado</button></a></h2>
+            <br>
+            <br>
+            <h2> <a href="veradmin.jsp" class="asu"><button >Ver Administradores</button></a></h2>
+
     </body>
 </html>
  

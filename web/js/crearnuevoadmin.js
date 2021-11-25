@@ -78,15 +78,7 @@ function mensaje(){
                   return false;
              } 
                 
-            if (accesorios.length <=0){
-                        Swal.fire({
-                   icon: 'error',
-                   title: 'Oops...',
-                   text: 'Acepta Los Terminos y Condiciones',
-                   
-                 })   
-                  return false;
-             }  
+      
         
              }if (correos.value== ""||pas.value== ""||pas1.value==""||bo.value==""||no.value==""){
                   Swal.fire({

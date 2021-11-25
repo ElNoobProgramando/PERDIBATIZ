@@ -5,6 +5,13 @@
 --%>
 <%@page import="java.math.BigInteger"%>
 <%@page import="java.security.MessageDigest"%>
+<%@page import="sun.misc.IOUtils"%>
+<%@page import="java.io.FileInputStream"%>
+<%@page import="java.io.InputStream"%>
+<%@page import="java.util.Date"%>
+<%@ page import="java.text.SimpleDateFormat"%>
+<%@page import="java.math.BigInteger"%>
+<%@page import="java.security.MessageDigest"%>
 <%@page contentType="text/html" pageEncoding="UTF-8" language="java" import="java.sql.*, java.util.*, java.text.*,  encapsulamiento.Logueo,  encapsulamiento.ConexionDB"  %>
  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
             <script src="sweetalert2.all.min.js" type="text/javascript"></script>
@@ -31,6 +38,7 @@
             Connection con = null;
             Statement set = null;
             ResultSet rs = null;
+             ResultSet raza = null;
            
             
             String url, userName, password, driver;
@@ -46,17 +54,23 @@
             try{
                 Class.forName(driver);
                 con = DriverManager.getConnection(url, userName, password);
+                        
                 
                 try{
-                    String q;
-                 
-                 
+                    String q,currentDate ;
+                    Date objDate = new Date();
+                    SimpleDateFormat ft = 
+                    new SimpleDateFormat ("dd/MM/yyyy HH:mm:ss");
+                    currentDate  = ft.format(objDate);
                        String co = (String)request.getAttribute("co");
                        String pas = (String)request.getAttribute("pas");
                        System.out.println(co);
+                       int valor = 1;
                        System.out.println(pas);
                     q = "select numusua, id_admi from pruebadenulo where correol='"+getMD5(co)+"' and contraseña='"+getMD5(pas)+"'";
-                    
+                    String hola = "UPDATE pruebadenulo SET ultimaconexion='"+currentDate+"'"
+                            + "WHERE id_admi ='"+valor+"'";;
+                       
                     
                   set = con.createStatement();
                             rs = set.executeQuery(q);
@@ -67,8 +81,7 @@
                             {
                                 while(rs.next()){
                              Boolean usr = rs.getBoolean("id_admi");
-                             if(usr)
-                             {
+                             if(usr){
                                  session.setAttribute("id", rs.getString("numusua"));
                              
                             
@@ -76,10 +89,10 @@
                            
                             set = con.createStatement();
                             rs = set.executeQuery(q);
-                        
+                            
                                 if(rs.isBeforeFirst() && idS!=null)
                                 {
-                                   
+                                    int registro = set.executeUpdate(hola);
                                     response.sendRedirect("menuadmin.jsp"); 
                                     
                                 }
