@@ -12,21 +12,19 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/agregaradmin.java</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/crearsesionl.html</file>
             <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/crearusuario.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/perdido.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/iniciarsesion.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/logueo.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/js/publiencontrado.js</file>
             <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/usuario.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/js/crearsesion.js</file>
             <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/js/crearnuevoadmin.js</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/paginadeerror.html</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/veradmin.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/CSSd/CSSmenuadmin.css</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/Myservlet.java</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/index.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/js/usuariodatos.js</file>
             <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/guardardatosdeusua.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/publiadmin.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/crearsesion.java</file>
             <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/usuariodatos.jsp</file>
             <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/nuevoadmin.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/actuadatosusua.java</file>
         </group>
     </open-files>
 </project-private>

@@ -365,9 +365,26 @@ and open the template in the editor.
 }
 .tit{
     
-        position: relative;
+
     top: -401px;
     left: -590px;
+    
+    
+}
+.administrador{
+           position: relative;
+        
+	top: 2px;
+	left: 60px;
+	width: 623px;
+	height: 155px;
+	background:rgba(40,37,37,0.07);
+        -ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+    
     
     
 }

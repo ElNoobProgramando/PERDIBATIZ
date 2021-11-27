@@ -50,7 +50,7 @@
                             response.sendRedirect("paginadeerror.html"); 
                             System.out.println("Si entra");
                         }
-                 String titu, queperd, agfoto, pgllave,respu,horae ,luc,currentDate,tipo,q;
+                 String currentDate,tipo,q;
                      
                   Date objDate = new Date();
                   SimpleDateFormat ft = 
@@ -58,25 +58,25 @@
                   currentDate  = ft.format(objDate);
                    try {
                     
-                    titu = request.getParameter("titu");
-                    queperd = request.getParameter("queperd");
-                       
-                    luc=request.getParameter("luc");
-                    horae = request.getParameter("horae");
+          
                     tipo = request.getParameter("colors");
                    
                     String msg = (String)request.getAttribute("servletMsg");
+                     String titulos = (String)request.getAttribute("titu");
+                      String queperdio = (String)request.getAttribute("queperd");
+                       String luka = (String)request.getAttribute("luc");
+                        String fechas = (String)request.getAttribute("fecha");
                   
                   
                     set = con.createStatement();
                     String idS = String.valueOf(session.getAttribute("id"));
-                    PubliEncontrado p2 = new PubliEncontrado(titu, queperd,luc,horae,tipo);
+                    PubliEncontrado p2 = new PubliEncontrado(tipo);
                     set = con.createStatement();
                    
                     
                     
                     q = "insert into perdido(titulo, queperdio,foto,lugarentrega,horario,horapubli,tipo,id_usuario) "
-                            + "values ('"+p2.getTitulo()+"', '"+p2.getQueperdio()+"', '"+msg+"','"+p2.getLuc()+"','"+p2.getHorae()+"','"+currentDate+"','"+p2.getColors()+"','"+idS+"')";
+                            + "values ('"+titulos+"', '"+queperdio+"', '"+msg+"','"+luka+"','"+fechas+"','"+currentDate+"','"+p2.getColors()+"','"+idS+"')";
                     int registro = set.executeUpdate(q);
                     System.out.println(q +"ESTO ES Q");
                     System.out.println(idS+"ESTO ES IDS");

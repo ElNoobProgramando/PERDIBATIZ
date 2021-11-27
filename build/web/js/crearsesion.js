@@ -28,7 +28,7 @@ function mensaje(){
                 Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
-                   text: 'La Contraseña debe ser de 10 caracteres y  solo puede tener numeros y letras o esta vacio tu campo',
+                   text: 'La Contraseña debe ser de 10 caracteres y  solo puede tener numeros y letras (sin espacios) o esta vacio tu campo',
                    
                  })   
                   return false;
@@ -46,7 +46,7 @@ function mensaje(){
               }
              
        
-              if (!nu.test(bo.value)||bo.value.length<10){
+              if (!nu.test(bo.value)){
                         Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
@@ -56,7 +56,7 @@ function mensaje(){
                   return false;
              }
              
-             if(bo.value.length>10){
+             if(bo.value.length > 10){
                        Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
@@ -72,11 +72,24 @@ function mensaje(){
                         Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
-                   text: 'Nombre solo puede tener letras y numeros o Campo Vacio',
+                   text: 'Nombre solo puede tener letras y numeros (sin espcacios) o Campo Vacio',
                    
                  })   
                   return false;
-             } 
+             }
+             if(no.value.length>10){
+                 
+                          Swal.fire({
+                   icon: 'error',
+                   title: 'Oops...',
+                   text: 'Nombre solo pueden ser 10 caracteres',
+                   
+                 })   
+                  return false;
+                 
+                 
+             }
+             
                 
             if (accesorios.length <=0){
                         Swal.fire({

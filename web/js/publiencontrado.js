@@ -44,8 +44,8 @@ function mensaje(){
     let xd =/^[A-Za-z0-9]+$/g;
      let nu= /[0-9]+$/;
     let le= /[a-zA-Z]*$/;
-    let to=/^[a-zA-Z0-9 ]+$/;
-    let tos= /^[a-zA-Z0-9 ]+$/;
+    let to=/^[A-Z]+$/i;
+    let tos= /^[A-Z]+$/i;
     let toca= /^[a-zA-Z0-9 ]+$/;
     let tosi= /^[A-Za-z0-9]+$/g;
     let re=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
@@ -65,7 +65,7 @@ function mensaje(){
                         Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
-                   text: 'Titulo solo puede llevar letras y numeros asi como  menor de 10 caracteres(sin espacios) o tu Campo esta  Vacio',
+                   text: 'Titulo solo puede llevar letras asi como  menor de 10 caracteres(sin espacios) o tu Campo esta  Vacio',
                    
                  })   
                   return false;
@@ -75,7 +75,7 @@ function mensaje(){
                         Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
-                   text: 'Tu campo "Que perdiste" solo puede tener numeros y letras (maximo 25 caracteres) o esta vacio',
+                   text: 'Tu campo "Que perdiste" solo puede tener letras (maximo 25 caracteres) o esta vacio',
                    
                  })   
                   return false;

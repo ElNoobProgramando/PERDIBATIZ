@@ -1,5 +1,4 @@
-
-    function mensaje(){
+ function mensaje(){
  
     var correos = document.getElementById('coreo');
     var pas = document.getElementById('pas');
@@ -22,7 +21,7 @@
                 Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
-                    text: 'Tu contraseña no es la misma',
+                    text: 'Tu contraseña solo pueden ser numeros y letras',
                    
                  })   
                   return false;

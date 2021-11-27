@@ -82,12 +82,11 @@
                      {
                    %>
                    <p>---------------------ADMINISTRADOR--------------------</p> 
-                   <div class="rectangulo" id="resultado">
+                   <div class="administrador" id="resultado">
                        <table id="dAtos">  
                    <span class="titupubli"><%=rs.getString("nombre")%></span>
-                   <span class="tit">Ultima Inicio de Sesion:<%=rs.getString("ultimaconexion")%></span>
-                   
-                    </button>
+                   <h3> <span class="tit">Ultima Inicio de Sesion:<%=rs.getString("ultimaconexion")%></span></h3>
+                    
                        </table>
                    </div>
                     <%

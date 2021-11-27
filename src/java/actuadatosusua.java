@@ -6,6 +6,8 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -72,6 +74,29 @@ public class actuadatosusua extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+          String co = request.getParameter("correo");
+         String con = request.getParameter("contra");
+          String nom = request.getParameter("name");
+          
+          
+             Pattern pattern = Pattern
+                .compile("^[^@]+@[^@]+\\.[a-zA-Z]{2,}$");
+           Matcher mather = pattern.matcher(co);
+           
+           
+           
+        Pattern pattern1 = Pattern
+                .compile("^[A-Za-z0-9]+$");
+            Matcher mather1 = pattern1.matcher(con);
+            
+            
+             
+             Pattern pattern3 = Pattern
+                .compile("^[A-Za-z0-9]+$");
+            Matcher matcher3 = pattern3.matcher(nom);
+            
+        
+        if(mather.find() == true && mather1.find() == true &&  matcher3.find() == true){
           request.setAttribute("correo",request.getParameter("correo"));
           request.setAttribute("contra",request.getParameter("contra"));
           request.setAttribute("name",request.getParameter("name"));
@@ -79,7 +104,18 @@ public class actuadatosusua extends HttpServlet {
         RequestDispatcher rd;
         rd=request.getRequestDispatcher("guardardatosdeusua.jsp");
         rd.forward(request, response);
+        }
+        else{
+         
+            System.out.println(mather);
+            System.out.println(mather1);
+
+             System.out.println(matcher3);
+              RequestDispatcher rds;
+              rds=request.getRequestDispatcher("paginaderror2.html");
+              rds.forward(request, response);  
         
+        }
       
         processRequest(request, response);
     }

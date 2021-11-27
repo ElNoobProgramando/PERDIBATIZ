@@ -105,7 +105,7 @@
         Swal.fire({
   backdrop:true,
   allowOutsideClick: false,          
-  title: 'Tu Publicacion se registro exitosamente',
+  title: 'Tus cambios se guardaron exitosamente',
   confirmButtonText: 'Ok',
   icon:'success'
   

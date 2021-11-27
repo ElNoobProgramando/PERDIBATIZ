@@ -6,6 +6,8 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -72,12 +74,48 @@ public class Myservlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-      
-        request.setAttribute("servletMsg",request.getParameter("imgb64"));
-        RequestDispatcher rd;
-        rd=request.getRequestDispatcher("guardarencontrado.jsp");
-        rd.forward(request, response);
+         String titu = request.getParameter("titu");
+         String queperd = request.getParameter("queperd");
+         String img = request.getParameter("imgb64");
+          String luc = request.getParameter("luc");
+          String fecha = request.getParameter("fecha");
+         
+          Pattern pattern = Pattern
+                .compile("^[a-zA-Z]+$");
+           Matcher mather = pattern.matcher(titu);
+           
+           
+           
+           Pattern pattern1 = Pattern
+                .compile("^[a-zA-Z]+$");
+            Matcher mather1 = pattern1.matcher(queperd);
+            
+            
+        if (mather.find() == true){   
+             request.setAttribute("titu",request.getParameter("titu"));
+              request.setAttribute("queperd",request.getParameter("queperd"));
+              request.setAttribute("luc",request.getParameter("luc"));
+              request.setAttribute("fecha",request.getParameter("fecha"));
+              request.setAttribute("servletMsg",request.getParameter("imgb64"));
+              RequestDispatcher rd;
+              rd=request.getRequestDispatcher("guardarencontrado.jsp");
+              rd.forward(request, response);  
+              System.out.println("si se envian el titu"+titu);
+              System.out.println("si se envian el queperdio"+queperd);
+              System.out.println("si se envian el luc"+luc);
+              System.out.println("si se envian el fecha"+fecha);
+        }
+     
+        else {
+            System.out.println("noseenvia");
+              RequestDispatcher rds;
+              rds=request.getRequestDispatcher("paginaderror2.html");
+              rds.forward(request, response);  
+                   }
+         
         
+        
+
         processRequest(request, response);
     }
 

@@ -45,7 +45,7 @@
             userName = "root";
             password = "343122";
             driver = "com.mysql.jdbc.Connection";
-           
+          
            
                 Class.forName("com.mysql.jdbc.Driver");
                 con = (Connection)DriverManager.getConnection(url, userName, password);
@@ -53,10 +53,11 @@
                         {
                             response.sendRedirect("paginadeerror.html"); 
                             System.out.println("Si entra");
-                        }        
+                        }
+                   System.out.println("Session: "+String.valueOf(session.getAttribute("id")));
+                     System.out.println("Esta es la sesion "+String.valueOf(session.getAttribute("id")));
                         try{
-                            String id = request.getParameter("id"); 
-                            System.out.println(id+"holapyuedeesto");
+                  
                             
                             String q = "select numusua,correol,contraseña,nombre from pruebadenulo where numusua ='"+session.getAttribute("id")+"'";;
                              

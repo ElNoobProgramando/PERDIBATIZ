@@ -41,20 +41,21 @@
                 
                 try{
                     String correo, contrase, numboleta, nombre,terminos,q,w,o;
-                    correo = request.getParameter("correo");
-                    contrase = request.getParameter("contrase");
-                    numboleta= request.getParameter("numboleta");
-                    nombre = request.getParameter("nombre");
+          
                     terminos = request.getParameter("terminos");
-                    Crear c1 = new Crear(correo, contrase, numboleta,nombre); 
+                     String co = (String)request.getAttribute("co");
+                     String contra = (String)request.getAttribute("con");
+                     String bo = (String)request.getAttribute("bo");
+                     String nom = (String)request.getAttribute("nom");
+
                     set = con.createStatement();
                    
-                    q = "insert into pruebadenulo(correol, contraseña,numboleta,nombre,avisopriva) "+ "values ('"+getMD5(c1.getCorreo())+"', '"+getMD5(c1.getContrasena())+"', '"+getMD5(c1.getNumboleta())+"', '"+c1.getNombre()+"', '"+terminos+"')";
+                    q = "insert into pruebadenulo(correol, contraseña,numboleta,nombre,avisopriva) "+ "values ('"+getMD5(co)+"', '"+getMD5(contra)+"', '"+getMD5(bo)+"', '"+nom+"', '"+terminos+"')";
                     
                    
-                    o = "select * from pruebadenulo where correol='"+getMD5(c1.getCorreo())+"'";
+                    o = "select * from pruebadenulo where correol='"+getMD5(co)+"'";
                     
-                    w = "select * from pruebadenulo where numboleta='"+getMD5(c1.getNumboleta())+"'";
+                    w = "select * from pruebadenulo where numboleta='"+getMD5(contra)+"'";
                     rs = set.executeQuery(w);
                     rs = set.executeQuery(o);
                     %>
