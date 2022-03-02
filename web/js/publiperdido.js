@@ -42,7 +42,7 @@ function mensaje(){
                  })   
                   return false;
              } 
-                if (!tos.test(queperdio.value)||queperdio.value.length >16){
+                if (!tos.test(queperdio.value)||queperdio.value.length >30){
                         Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
@@ -58,7 +58,7 @@ function mensaje(){
                         Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
-                   text: 'Tu pregunta solo puede tener letras y numeros(maximo 15 caracteres) O puede estar vacio tu Campo',
+                   text: 'Tu pregunta solo puede tener letras y numeros(maximo 30 caracteres) O puede estar vacio tu Campo',
                    
                  })   
                   return false;

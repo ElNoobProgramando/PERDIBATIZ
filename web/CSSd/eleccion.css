@@ -36,7 +36,8 @@ and open the template in the editor.
 	-webkit-border-radius: 30px;
 	border-radius: 30px;
 	background:rgba(224.19,28.96,75.77,1);
-        font-size: 25px
+        font-size: 15px;
+        border: #FFFFFF;
 }
 .enco{
         position: relative;
@@ -50,8 +51,11 @@ and open the template in the editor.
 	-webkit-border-radius: 30px;
 	border-radius: 30px;
 	background:rgba(224.19,28.96,75.77,1);
-        font-size: 25px;
+        font-size: 15px;
+        border: #FFFFFF;
+        
 }
+
 .imagenempre{
        top: 35px;
     left: 15px;
@@ -78,7 +82,23 @@ and open the template in the editor.
     -webkit-border-radius: 30px;
     border-radius: 30px;
     background: rgba(224.19,28.96,75.77,1);
-    font-size: 25px;
+    font-size: 15px;
+    border: #FFFFFF;
     
     
 }
+input{
+        border: white;
+    }
+    *{
+        font-family: 'Montserrat';
+        font:small-caps bold 12px/30px ;
+        
+    }
+    button{
+            text-transform: uppercase;
+        font-weight: bold;
+    }
+    button:hover{
+        background:rgb(180, 24, 60);
+      }

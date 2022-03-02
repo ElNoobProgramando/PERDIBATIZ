@@ -9,12 +9,11 @@ and open the template in the editor.
 */
 
 .barraroja{
-      position: relative;
-	top: -20px;
-	left: -40px;
-        width: 1934px;
-	height: 100px;
-        
+    position: relative;
+    top: -20px;
+    left: 0px;
+    width: 122%;
+    height: 100px;
 	background:rgba(255,255,255,0);
 	background: -webkit-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
 	background: -o-linear-gradient(-90deg , rgba(224.19,28.96,75.77,1) 0%, rgba(224.19,28.96,75.77,0.68) 100%);
@@ -38,7 +37,7 @@ and open the template in the editor.
     width: 181px;
     height: 34px;
     overflow: hidden;
-    font-family: Roboto;
+    
     font-size: 18px;
     text-align: left;
     color: #FDF7F7;
@@ -51,7 +50,7 @@ and open the template in the editor.
     width: 174px;
     height: 284px;
     overflow: hidden;
-    font-family: Roboto;
+    
     font-size: 18px;
     text-align: left;
     color: black;
@@ -65,7 +64,7 @@ and open the template in the editor.
 	width: 106px;
 	height: 34px;
 	overflow: hidden;
-	font-family: Roboto;
+	
 	font-size: 18px;
 	text-align: left;
 	color:#FFFFFF;
@@ -79,7 +78,7 @@ and open the template in the editor.
 	width: 159px;
 	height: 34px;
 	overflow: hidden;
-	font-family: Roboto;
+	
 	font-size: 18px;
 	text-align: left;
 	color:#FCF4F4;
@@ -94,7 +93,7 @@ and open the template in the editor.
 	width: 187px;
 	height: 34px;
 	overflow: hidden;
-	font-family: Roboto;
+	
 	font-size: 18px;
 	text-align: left;
 	color:#F9F6F6;
@@ -109,7 +108,7 @@ and open the template in the editor.
 	width: 146px;
 	height: 34px;
 	overflow: hidden;
-	font-family: Roboto;
+	
 	font-size: 18px;
 	text-align: left;
 	color:#FFFCFC;
@@ -124,7 +123,7 @@ and open the template in the editor.
 	width: 56px;
 	height: 34px;
 	overflow: hidden;
-	font-family: Roboto;
+	
 	font-size: 18px;
 	text-align: left;
 	color:#FFFBFB;
@@ -139,7 +138,7 @@ and open the template in the editor.
 	width: 49px;
 	height: 34px;
 	overflow: hidden;
-	font-family: Roboto;
+	
 	font-size: 18px;
 	text-align: left;
 	color:#FFFBFB;
@@ -154,7 +153,7 @@ and open the template in the editor.
 	width: 249px;
 	height: 35px;
 	overflow: hidden;
-	font-family: Roboto;
+	
 	font-size: 30px;
 	text-align: left;
 	color:#000000;
@@ -167,14 +166,14 @@ and open the template in the editor.
 	width: 249px;
 	height: 35px;
 	overflow: hidden;
-	font-family: Roboto;
+	
 	font-size: 30px;
 	text-align: left;
 	color:#000000;
     
 }
-.crearpublicacion{
-    
+#crearpublicacion{
+    transform: translate(400px, -240px);
     
 }
 .lupa{
@@ -193,10 +192,10 @@ and open the template in the editor.
 	height: 60px;
 }
 .imagenusuario{
-          position: relative;
+    position: relative;
     top: -205px;
-    left: 1234px;
-    width: 56px;
+    left: 1486px;
+    width: 63px;
     height: 63px;
 
     
@@ -215,8 +214,8 @@ and open the template in the editor.
     position: relative;
     padding: 10px;
     float: left;
-    top: -445px;
-    left: 430px;
+    top: -423px;
+    left: 243px;
     width: 750px;
     height: 640px;
     background: rgba(255,255,255,0);
@@ -247,16 +246,15 @@ and open the template in the editor.
     
 }
 .titupubli{
-        position: relative;
-        top: -106px;
-	left: 250px;
-	width: 182px;
-	height: 34px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 25px;
-	text-align: left;
-	color:#000000;
+    position: relative;
+    top: -96px;
+    left: 250px;
+    width: 182px;
+    height: 34px;
+    overflow: hidden;
+    font-size: 19px;
+    color: #000000;
+    text-transform: uppercase;
     
 }
 .preguntallave{
@@ -286,8 +284,9 @@ and open the template in the editor.
 .fecha
 {
     position: relative;
-    left: 60%;
-    top: 12%;
+    left: 65%;
+    top: 20%;
+    font-size: 13px;
 }
 .per{
        top: 34px;
@@ -295,7 +294,7 @@ and open the template in the editor.
     width: 160px;
     height: 38px;
     overflow: hidden;
-    font-family: Montserrat;
+    
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -369,7 +368,7 @@ and open the template in the editor.
     
 }
 .api{
-    
+    border: #FFFFFF;
 }
 .yea{
     
@@ -460,25 +459,20 @@ and open the template in the editor.
 }
 .preguntallaves{
     
-        position: relative;
-    top: -64px;
-
-    left: 6px;
-
-    width: 237px;
-
-    height: 40px;
-
+    position: relative;
+    top: -34px;
+    left: 15px;
+    width: 150px;
+    height: 38px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
-
     border-radius: 30px;
-
     background: rgba(224.19,28.96,75.77,1);
-    font-size: 25px;
+    font-size: 15px;
 }
+
 .qe{
     position: relative;
     top: -1271px;
@@ -502,12 +496,12 @@ and open the template in the editor.
     
 }
 .titupublis1{
-     top: -233px;
-	left: 405px;
-	width: 250px;
-	height: 42px;
+    top: -210px;
+        left: 445px;
+        width: 250px;
+        height: 42px;
         position: relative;
-        font-size: 20px;
+        font-size: 13px;
     
     
 }
@@ -540,16 +534,25 @@ and open the template in the editor.
 .encontrado{
     position: relative;
     top: -30px;
+    text-align: center;
     
 }
 .Buscador{
-     position: relative;
-	top: 5px;
-	left: 623px;
-        width: 317px;
-	height: 28px;
+    position: relative;
+    top: 5px;
+    left: 428px;
+    width: 490px;
+    height: 48px;
+    border-radius: 30px;
+    border: white;
+    background: #EDEDED;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    font: 12px;
     
-    
+}
+.Buscador:focus{
+    border: white;
+    outline: none;
 }
 .twiter{
     
@@ -581,10 +584,14 @@ and open the template in the editor.
 }
 .g{
     position: relative;
-    top: -571px;
-    left: 482px;
+    top: -603px;
+    left: 570px;
     font-size: 20px;
     color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
     
     
 }
@@ -602,3 +609,24 @@ and open the template in the editor.
 position: relative;
     left: -133px;
 }
+*{
+    font-family: 'Montserrat';
+    font:small-caps bold 12px/30px ;
+}
+input{
+    border: white;
+background: rgba(225.27,225.27,225.27,1);}
+
+.box.box-two {
+    background: rgba(181, 181, 181, 0.13);
+    border-radius: 30px;
+    width: 715px;
+    padding-right: 60px;
+}
+button {
+    background: rgba(224.19,28.96,75.77,1);
+    border: white;
+    border-radius: 30px;}
+    button:hover{
+        background:rgb(180, 24, 60);
+      }

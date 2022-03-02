@@ -80,6 +80,11 @@
                           System.out.println(res+"este es res");
                           System.out.println(s+"este esta es la respuesta");
                           if (res.equals(s)){
+                              
+                              int hola = 1;
+                          q = "UPDATE oportunidades SET buenas ="+hola+" where id_publicacion="+id+" AND id_usuario="+String.valueOf(session.getAttribute("id"));
+                            set = con.createStatement();
+                        set.executeUpdate(q);
                                             %>
                             
                                             
@@ -163,6 +168,10 @@
                     String s=String.valueOf(rs.getString("respuesta"));
                           System.out.println("aqui entra al while");
                           if (res.equals(s)){
+                               int hola = 1;
+                        q = "UPDATE oportunidades SET buenas ="+hola+" where id_publicacion="+id+" AND id_usuario="+String.valueOf(session.getAttribute("id"));
+                            set = con.createStatement();
+                        set.executeUpdate(q);
                                             %>
                              <div class="cuadro"> 
                             <p class="texto"><%=rs.getString("horario")%></p>

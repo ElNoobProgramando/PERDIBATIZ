@@ -42,7 +42,7 @@
         <div >
     <a href="logout.jsp"><button class="cerrarsesion" type="submit" style="color:white"  >Cerrar Sesion</button></a>
     </div>
-        <h1 class="tuspu">Tus Publicaciones</h1>
+        <h1><span class="tuspu">Tus Publicaciones</span></h1>
         <form action="usuariodatos.jsp">
             <button class="modificar" style="color: white">MODIFICAR MIS DATOS</button>
         </form>
@@ -145,7 +145,12 @@
 
                     %>
               
-                     
+                    <div>
+                        <from action="preguntascontestadas.jsp">
+                            <a href="preguntascontestadas.jsp"><button  class="marcarentrega2"  style="color: white"  >PREGUNTAS CONTESTADAS
+                    </button> </a>
+                        </from>
+                    </div>
                    </div>
 
   </div>

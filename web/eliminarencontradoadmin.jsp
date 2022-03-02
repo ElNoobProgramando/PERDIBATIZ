@@ -25,12 +25,6 @@
             <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
             <script src="~/JS/Alertas.js" type="text/javascript"></script>
             <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-                 <%
-        response.addHeader("Pragma", "no-cache");
-        response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-        response.setDateHeader("Expires", 0);
-    
-    %>
     </head>
     <body>
         <% 
@@ -59,13 +53,11 @@
                         }
                 
                    try {
-                       String correo,contra,boleta,name,q,w;
+                       String q,w;
                     set = con.createStatement();
-                   String id = request.getParameter("id"); 
-                            System.out.println(id+"holapyuedeesto");
-
-                  q = "INSERT INTO elimiencontrado (titulo,queperdio,tipo,fechadepubli,id_usuario) SELECT  titulo,queperdio,tipo,fechadepubli,id_usuario FROM encontrado WHERE id_publi = "+id;  
-                  w = "DELETE FROM encontrado WHERE id_publi="+id;
+                   String co = (String)request.getAttribute("eliminar");
+                  q = "INSERT INTO elimiencontrado (titulo,queperdio,tipo,fechadepubli,id_usuario) SELECT  titulo,queperdio,tipo,fechadepubli,id_usuario FROM encontrado WHERE id_publi = "+co;  
+                  w = "DELETE FROM encontrado WHERE id_publi="+co;
                     System.out.println(q);
                     int registro = set.executeUpdate(q);
                     int eliminar = set.executeUpdate(w);
@@ -123,3 +115,27 @@
         
     </body>
 </html>
+<%!
+   public String getMD5(String input){
+try{
+
+   
+    MessageDigest md=MessageDigest.getInstance("MD5");
+    byte[] encBytes=md.digest(input.getBytes());
+    BigInteger numero=new BigInteger(1,encBytes);
+    String encString=numero.toString(16);
+    while(encString.length()<32){
+        encString="0"+encString;
+    }
+    return encString;
+    }catch(Exception e){
+        throw new RuntimeException(e);
+    }
+} 
+
+
+
+
+
+%>                            
+

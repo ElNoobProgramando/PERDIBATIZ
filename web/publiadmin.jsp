@@ -70,11 +70,7 @@
                             response.sendRedirect("paginadeerror.html"); 
                             System.out.println("Si entra");
                         }
-                        if(String.valueOf(session.getAttribute("id")) == null || String.valueOf(session.getAttribute("id")) == "null")
-                        {
-                            response.sendRedirect("logueo.html"); 
-                            System.out.println("Si entra");
-                        }
+
                      System.out.println("Esta es la sesion "+String.valueOf(session.getAttribute("id")));
                      
                   String q = "select idperdido,titulo,queperdio,foto,horapubli,tipo,id_usuario, pruebadenulo.nombre from perdido INNER JOIN pruebadenulo ON perdido.id_usuario = pruebadenulo.numusua";
@@ -105,7 +101,7 @@
                     <br>
                     <span class="fecha">&nbsp;&nbsp;&nbsp;Publicado: <%=rs.getString("horapubli")%></span>
                     <p class="titupublis">&nbsp;&nbsp;&nbsp;Creado por:<%=rs.getString("nombre")%></p>
-                    <form action="eliminaradmin" method="POST">
+                    <form action="eliminarperdido3" method="POST">
                     <button method ="post" class="preguntallave" id="botons" name="bt" style="color: white" value="<%=rs.getString("idperdido")%>" onclick="valores(this.value)">ELIMINAR
                     </button>
                       </form>
@@ -131,7 +127,7 @@
                     <br>
                      <span class="fecha">&nbsp;&nbsp;&nbsp;Publicado: <%=rss.getString("fechadepubli")%></span>
                       <p class="titupublis1">&nbsp;&nbsp;&nbsp;Creado por:<%=rss.getString("nombre")%></p>
-                    <form action="publiadmin2" method="POST">
+                    <form action="eliminarperdido4" method="POST">
                      <button  class="preguntallaves" id="botons" style="color: white" name="bt1" value="<%=rss.getString("id_publi")%>" onclick="valo(this.value)">ELIMINAR
                     </button>
                      </form>
@@ -161,6 +157,10 @@
             <br>
             <h2> <a href="agregaradmin.jsp" class="agregarusuario"><button >Agregar Administrado</button></a></h2>
             <br>
+            <br>
+            
+            <h2> <a href="veradmin.jsp" class="entregado-noentregado"><button >ESTADISTICA ENTREGADO</button></a></h2>
+             <br>
             <br>
             <h2> <a href="veradmin.jsp" class="asu"><button >Ver Administradores</button></a></h2>
 

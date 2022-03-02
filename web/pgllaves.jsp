@@ -134,6 +134,17 @@ setInterval(cargarsegundo,1000);
                
                  function valor(val, val1, val2){
                                     var respuesta = document.getElementById('o');
+                                    let to= /^[A-Za-z0-9]+$/g;
+                                    
+                     if (!to.test(respuesta.value) || respuesta.value.length >18){
+                        Swal.fire({
+                   icon: 'error',
+                   title: 'Oops...',
+                   text: 'Tu Respuesta solo pueden ser letras y numeros(maximo 18 caracteres)y sin espacios o esta Vacio',
+                   
+                 })   
+                  return false;
+             }else{ 
                      const now = Date.now();
                     var resultado = (parseInt(val,val2) / now);
                     var key = btoa(now.toString());
@@ -146,6 +157,7 @@ setInterval(cargarsegundo,1000);
                      
        
                             }
+                        }
                         
                  
 </script>

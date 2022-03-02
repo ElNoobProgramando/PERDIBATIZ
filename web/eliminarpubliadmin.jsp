@@ -59,23 +59,13 @@
                         }
                 
                    try {
-                       String correo,contra,boleta,name,q,w;
-                     
-                  
-                   
-                    
-                    correo = request.getParameter("correo");
-                    contra = request.getParameter("contra");
-                    boleta= request.getParameter("boleta"); 
-                    name= request.getParameter("name"); 
+                       String q,w;
+                    String co = (String)request.getAttribute("eliminar");
                    
                     set = con.createStatement();
-                   String id = request.getParameter("id"); 
-                            System.out.println(id+"holapyuedeesto");
-
-                  q = "INSERT INTO publieliminadas (titulo,quefue,foto,lugarentrega,horario,horariopubli,tipo,id_usuario) SELECT  titulo,queperdio,foto,lugarentrega,horario,horapubli,tipo,id_usuario FROM perdido WHERE idperdido = "+id;  
-                  w = "DELETE FROM perdido WHERE idperdido="+id;
-                    System.out.println(q);
+                  q = "INSERT INTO publieliminadas (titulo,quefue,foto,lugarentrega,horario,horariopubli,tipo,id_usuario) SELECT  titulo,queperdio,foto,lugarentrega,horario,horapubli,tipo,id_usuario FROM perdido WHERE idperdido = "+co;  
+                  w = "DELETE FROM perdido WHERE idperdido="+co;
+         
                     int registro = set.executeUpdate(q);
                     int eliminar = set.executeUpdate(w);
                   
@@ -132,3 +122,27 @@
         
     </body>
 </html>
+<%!
+   public String getMD5(String input){
+try{
+
+   
+    MessageDigest md=MessageDigest.getInstance("MD5");
+    byte[] encBytes=md.digest(input.getBytes());
+    BigInteger numero=new BigInteger(1,encBytes);
+    String encString=numero.toString(16);
+    while(encString.length()<32){
+        encString="0"+encString;
+    }
+    return encString;
+    }catch(Exception e){
+        throw new RuntimeException(e);
+    }
+} 
+
+
+
+
+
+%>                            
+

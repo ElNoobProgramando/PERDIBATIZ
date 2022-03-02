@@ -12,19 +12,19 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/crearsesionl.html</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/agregaradmin.java</file>
             <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/crearusuario.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/js/publiencontrado.js</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/pgllaves.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/perdido.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/eliminarperdido.java</file>
             <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/usuario.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/js/crearnuevoadmin.js</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/Myservlet.java</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/index.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/js/usuariodatos.js</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/guardardatosdeusua.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/crearsesion.java</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/usuariodatos.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/nuevoadmin.jsp</file>
-            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/src/java/actuadatosusua.java</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/eliminarpubli.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/grafica1.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/mostrarentrega.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/agregaradmin.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/entregado.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/entregar.jsp</file>
+            <file>file:/C:/Users/yayah/Documents/NetBeansProjects/aver/web/preguntascontestadas.jsp</file>
         </group>
     </open-files>
 </project-private>

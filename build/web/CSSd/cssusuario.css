@@ -23,37 +23,40 @@
     
 }
 .titupubli{
-        position: relative;
+  position: relative;
         top: 8px;
 	left: 250px;
 	width: 182px;
 	height: 34px;
 	overflow: hidden;
-	font-family: Roboto;
-	font-size: 25px;
+	
+	font-size: 19px;
 	text-align: left;
 	color:#000000;
+  font-weight: bold;
+  text-transform: uppercase;
     
 }
 .publicaciones
 {
   position: relative;
-    width: 110px;
-    height: auto;
-    float: right;
-    top: -18%;
-    left: -3%;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top: -75px;
+    left: 18px;
 }
 .fecha
 {
-    position: relative;
-    left: 60%;
-    top: 23%;
+  position: relative;
+  left: 58%;
+  top: 40%;
+  font-size: 13px;
 }
 .barraroja{
     position: relative;
     top: -20px;
-    left: -7px;
+    left: 0px;
     width: 100%;
     height: 100px;
 	background:rgba(255,255,255,0);
@@ -74,18 +77,19 @@
 }
 .regresar{
     
-        position: relative;
-    top: -172px;
-    left: 1289px;
+      position: relative;
+    top: -92px;
+    left: 1358px;
     width: 180px;
     height: 60px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border-radius: 10px;
-  background: rgba(167.88,30.08,63.15,1);
-    font-size: 25px;
+    border-radius: 30px;
+  
+    
+    
 
 }
 .tuspu{
@@ -94,6 +98,7 @@
     left: 673px;
     width: 255px;
     height: 49px;
+    inline-size: auto;
     
     
 }
@@ -114,50 +119,46 @@
     
 }
 .marcarentrega1{
-        position: relative;
-    top: -109px;
-    left: 430px;
-    width: 180px;
-    height: 60px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    font-size: 25px;
-    background: rgba(167.88,30.08,63.15,1);
+  position: relative;
+  top: -109px;
+  left: 430px;
+  width: 180px;
+  height: 60px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 30px;
     
     
 }
 .modificar{
-     position: relative;
-    top: -212px;
-    left: 1290px;
+   position: relative;
+    top: -152px;
+    left: 1167px;
     width: 180px;
     height: 60px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border-radius: 10px;
-    font-size: 25px;
-    background: rgba(167.88,30.08,63.15,1);
+    border-radius: 30px;
+  
+    
     
     
 }
 .marcarentrega2{
-        position: relative;
-    top: -93px;
-    left: 646px;
-    width: 180px;
-    height: 60px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    font-size: 25px;
-    background: rgba(167.88,30.08,63.15,1);
+  position: relative;
+  top: -93px;
+  left: 653px;
+  width: 180px;
+  height: 60px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 30px;
     
     
 }
@@ -172,17 +173,31 @@
 .cerrarsesion{
      
         position: relative;
-    top: -232px;
-    left: 1070px;
+    top: -152px;
+    left: 1167px;
     width: 180px;
     height: 60px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border-radius: 10px;
-  background: rgba(167.88,30.08,63.15,1);
-    font-size: 25px;
+    border-radius: 30px;
+  
+    
     
     
 }
+*{
+  font-family: 'Montserrat';
+  font:small-caps bold 12px/30px ;
+}
+input{
+  border: white;
+background: rgba(225.27,225.27,225.27,1);}
+button {
+  background: rgba(224.19,28.96,75.77,1);
+  border: white;
+  border-radius: 30px;}
+  button:hover{
+    background:rgb(180, 24, 60);
+  }

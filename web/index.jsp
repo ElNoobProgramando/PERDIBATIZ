@@ -53,51 +53,13 @@
         </section>          
         <img src="images/nose.png" class="imagenusuario" onclick="ir()"/></div>    
           <div class="obenco"> 
-            <h2 style="color: black" class="f">FILTROS</h2>
-            <a name="obenco" style="color: black">Encontrado</a>
+            <h2 style="color: black" class="f"></h2>
+            <a name="obenco" style="color: black"></a>
             </div>
-            <div class="linea"></div>
-            <h2 class="est" style="color: black">ESTADO</h2>
+
+            <h2 class="est" style="color: black"></h2>
             <div class="obexco">
-                 <label  for="color">
-                      <input type="radio" name="color" id="EX" value="Tecnologico" class="tecnologico" >
-                      <label for="EX" class="SI">EXTRAVIADO</labe>
-                      <br>
-                    </label>
-                    <br>
-                  <label>
-                    <input type="radio" name="color" value="Ropa" id="en" class="ropa1" value="ENCONTRADO"  >
-                    <label for="en">ENCONTRADO</label>
-                </label>
-                   <br>
-                     <label >
-                      <input type="radio" name="color1" id="tec" value="Escolar" class="escolar"  > 
-                      <label for="tec">TECNOLOGICO</label>
-                     
-                </label>
-                  <br>
-                   <label>
-                      <input type="radio" name="color1" id="esc" value="Escolar" class="escolar"  > 
-                      <label for="esc">ESCOLAR</label>
-                </label>
-                <br>
-                <label >
-                      <input type="radio" name="color1" id="perso" value="Escolar" class="escolar"  > 
-                      <label for="perso">PERSONAL</label>
-                     
-                </label>
-                <br>
-                    <label >
-                      <input type="radio" name="color1" id="ropa" value="Escolar" class="escolar"  > 
-                      <label for="ropa">ROPA</label>
-                     
-                </label>
-                    <br>
-                    <label>
-                      <input type="radio" name="color1" id="otros" value="Escolar" class="escolar"  > 
-                      <label for="OTROS">OTROS</label>
-                </label>
-                  <br>
+
         </div>
      
         </div>
@@ -301,22 +263,8 @@ $(document).ready(function() {
             
             %> 
        </div>
-       <div class="v" style="background: rgba(224,19,28,96,75,77,1);"  >
-       <a href="eleccionpubli.html"><button type="submit"  id="crearpublicacion"  style="
-    left: 1282px;
-    width: 237px;
-    height: 40px;
-    -ms-border-radius: 30px;
-	-o-border-radius: 30px;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	border-radius: 30px;
-	background:rgba(224.19,28.96,75.77,1);
-    font-size: 25px;
-    color: white;
-    top: -1182px;">
-               Crear Publicacion</button></a> 
-       </div>
+       <h1><a href="eleccionpubli.html"> <button style="position: relative; top:-710px; color: white; font-size: 30px; left: -240px;" >Crear Publicacion</button></a></h1>
+
  </body>
 </html>    
 <script>

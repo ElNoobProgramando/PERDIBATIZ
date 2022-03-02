@@ -71,11 +71,11 @@ function mensaje(){
                   return false;
              } 
             
-                if (!tos.test(queperdio.value)||queperdio.value.length>25){
+                if (!xd.test(queperdio.value)||queperdio.value.length>25){
                         Swal.fire({
                    icon: 'error',
                    title: 'Oops...',
-                   text: 'Tu campo "Que perdiste" solo puede tener letras (maximo 25 caracteres) o esta vacio',
+                   text: 'Tu campo "Que perdiste" solo puede tener letras (maximo 25 caracteres) sin espacios o esta vacio',
                    
                  })   
                   return false;
