@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barraroja {
+    width: 100%;
+    background: linear-gradient(180deg, #E01D4C 0%, rgba(224, 29, 76, 0.68) 100%);
+}
+
+.wrapper1 {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#logo {
+    width: 6%;
+    float: left;
+    padding: 6px 0;
+    margin-top: 6px;
+}
+
+.per {
+    padding: 6px;
+    margin-top: 30px;
+    float: left;
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 28px 45px;
+    padding: 15px 12px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: 600;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 50px;
+}
+
+header nav a:hover {
+    background: #edf2f4;
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+#rectangle10 {
+    margin: 50px 0 0 390px;
+    padding-top: 1em;
+    top: 40px;
+    left: 49px;
+    width: 643px;
+    height: 579px;
+}
+
+.wrapper2 {
+    width: 90%;
+    max-width: 1600px;
+    padding-top: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.ingresecor {
+    position: relative;
+    top: 5px;
+    left: 40px;
+    width: 790px;
+    height: 0px;
+    font-size: 20px;
+}
+
+.ingresecontr {
+    position: relative;
+    top: 1px;
+    left: 40px;
+    width: 790px;
+    height: 0px;
+    font-size: 20px;
+}
+
+.numboleta {
+    position: relative;
+    top: -8px;
+    left: 40px;
+    width: 790px;
+    height: 0px;
+    font-size: 20px;
+}
+
+.urname {
+    position: relative;
+    top: -26px;
+    left: 40px;
+    width: 790px;
+    height: 0px;
+    font-size: 20px;
+}
+
+.nuevousu {
+    position: relative;
+    top: -43px;
+    left: 128px;
+    width: 101px;
+    height: 101px;
+}
+
+.correo {
+    position: relative;
+    border-radius: 25px;
+    fill: white;
+    top: 0px;
+    left: 280px;
+    width: 300px;
+    height: 30px;
+}
+
+.contrase {
+    position: relative;
+    border-radius: 25px;
+    fill: white;
+    top: 1px;
+    left: 280px;
+    width: 300px;
+    height: 30px;
+}
+
+.numboletas {
+    position: relative;
+    border-radius: 25px;
+    fill: white;
+    top: -8px;
+    left: 280px;
+    width: 300px;
+    height: 30px;
+}
+
+.nombre {
+    position: relative;
+    border-radius: 25px;
+    fill: white;
+    top: -125px;
+    left: 280px;
+    width: 300px;
+    height: 30px;
+}
+
+.cor {
+    top: 345px;
+    left: 597px;
+    width: 370px;
+    height: 31px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(225.27, 225.27, 225.27, 1);
+}
+
+.cont {
+    top: 0px;
+    left: 597px;
+    width: 370px;
+    height: 31px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(225.27, 225.27, 225.27, 1);
+}
+
+.comfi {
+    top: 30px;
+    left: 36px;
+    width: 160px;
+    height: 38px;
+    position: relative;
+    font-size: 20px;
+}
+
+.cont1 {
+    top: 10px;
+    left: 279px;
+    width: 370px;
+    height: 31px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(225.27, 225.27, 225.27, 1);
+    position: relative;
+}
+
+.nombres {
+    top: 100px;
+    left: 4px;
+    width: 370px;
+    height: 31px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(225.27, 225.27, 225.27, 1);
+    position: relative;
+}
+
+input {
+    border: white;
+    background: rgba(225.27, 225.27, 225.27, 1);
+}
+
+.crear {
+    margin: 0 200px;
+    width: 222px;
+    height: 51px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(224.19, 28.96, 75.77, 1);
+    font-size: 15px;
+    border: solid white;
+}
+
+.crear:hover {
+    background-color: rgb(180, 24, 60);
+}

@@ -1,0 +1,234 @@
+body{
+    overflow-x: hidden;
+   
+    
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(180deg, #E01D4C 20%, rgba(224, 29, 76, 0.68) 100%);
+    height: 30px;
+    border-radius: 30px;
+}
+.barraroja{
+    position: relative;
+    top: -20px;
+    left: -9px;
+    width: 1920px;
+    height: 100px;
+    background: linear-gradient(180deg, #E01D4C 0%, rgba(224, 29, 76, 0.68) 100%);
+}
+.box {
+    
+   
+  padding: 10px;
+  
+  float: left;
+  
+  top: -890px;
+  left:950px;
+  width: 750px;
+  height: 640px;
+  background:rgba(255,255,255,0);
+}
+.rectangulo{
+  position: relative;
+    top: 2px;
+    left: 70%;
+    width: 623px;
+    height: 327px;
+    background: rgba(40,37,37,0.07);
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; 
+}
+.titupubli{
+  position: relative;
+        top: 8px;
+	left: 45%;
+	width: 182px;
+	height: 34px;
+	overflow: hidden;
+	
+	font-size: 19px;
+	text-align: left;
+	color:#000000;
+  font-weight: bold;
+  text-transform: uppercase;
+    
+}
+.publicaciones
+{
+  position: relative;
+    width: 45px;
+    height: 45px;
+    float: left;
+    top: -75px;
+    left: 18px;
+}
+.fecha
+{
+  position: relative;
+    left: 55%;
+    top: 30%;
+    height:40px;
+    font-size: 13px;
+}
+
+.imagenempredos{
+    
+           position: relative;
+    top: -46px;
+    left: 6px;
+    width: 180px;
+    height: 60px;
+    text-decoration: none;
+}
+.regresar{
+    
+      position: relative;
+    top: -92px;
+    left: 1358px;
+    width: 180px;
+    height: 60px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+  
+    
+    
+
+}
+.tuspu{
+   
+    
+    left: 773px;
+    width: 255px;
+    height: 49px;
+    position: relative;
+    text-transform: uppercase;
+    
+    
+}
+.marcarentrega{
+        position: relative;
+    top: -113px;
+    left: 430px;
+    width: 180px;
+    height: 60px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+   
+    background-color: #E01D4C;
+    text-transform: uppercase;
+  font-weight: bold;
+    
+    
+}
+.marcarentrega1{
+  position: relative;
+  top: -109px;
+  left: 403px;
+  width: 180px;
+  height: 60px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+    
+    
+}
+.modificar{
+   position: relative;
+    top: -152px;
+    left: 1167px;
+    width: 180px;
+    height: 60px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+  
+    
+    
+    
+}
+.marcarentrega2{
+  position: relative;
+  top: -93px;
+  left: 660px;
+  width: 180px;
+  height: 60px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+    
+    
+}
+.publicaciones2{
+    
+      position: relative;
+    top: -114px;
+    left: 4px;
+    width: 52px;
+    height: 50px;
+}
+.cerrarsesion{
+     
+        position: relative;
+    top: -152px;
+    left: 1167px;
+    width: 180px;
+    height: 60px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+  
+    
+    
+    
+}
+*{
+  font-family: 'Montserrat';
+  
+}
+input{
+  border: white;
+  
+background: rgba(225.27,225.27,225.27,1);}
+button {
+  background: rgba(224.19,28.96,75.77,1);
+  border: white;
+  border-radius: 30px;}
+  button:hover{
+    background:rgb(180, 24, 60);
+  }
+  .logo{
+    
+    right: 340px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+  }

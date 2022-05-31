@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/10/2021, 09:25:05 PM
+    Author     : yayah
+*/
+
+
+ .barraroja{
+    position: relative;
+	top: -20px;
+	left: -9px;
+    width: 1920px;
+	height: 100px;
+       
+	background: linear-gradient(180deg, #E01D4C 0%, rgba(224, 29, 76, 0.68) 100%);
+ }
+.cuadro{
+        margin: auto;
+	
+	left: 50%;
+	width: 600px;
+	height: 310px;
+	background:rgba(243.31,242.3,242.3,1);
+        border: white;
+        border-radius: 40px;
+}
+.boton{
+     position: relative;
+        top: 80px;
+	left: 200px;
+	width: 200px;
+	height: 45px;
+       -ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(224.19,28.96,75.77,1);
+        font-size: 15px;
+        border: solid white;
+        text-transform: uppercase;
+        font-weight: bold; 
+} 
+    
+.respuesta{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width: 398px;
+    height: 30px;
+    border: white;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    
+}
+.respusta:focus, input:focus{
+    outline: none;}
+
+.texto{
+     position: relative;
+    top: 50px;
+    left: 50px;
+    width: 549px;
+    height: 34px;
+    overflow: hidden;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+    
+.regresar{
+       position: relative;
+      font-size: 30px;
+    top: -29px;
+    left: 1322px;
+    width: 206px;
+    height: 45px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(198.69,187.1,189.88,1);
+}
+
+    
+.imagenempredos{
+    
+     position: relative;
+    top: 20px;
+    left: 15px;
+    width: 180px;
+    height: 60px;
+}
+
+    
+    .per{
+       top: 34px;
+    left: 52px;
+    width: 160px;
+    height: 38px;
+    overflow: hidden;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+    
+    
+}
+.guardar{
+    
+          position: relative;
+      font-size: 20px;
+    top: -29px;
+    left: 375px;
+    width: 206px;
+    height: 52px;
+   background: rgba(224.19,28.96,75.77,1);
+    border: white;
+    border-radius: 30px;}
+    button:hover{
+   background:rgb(180, 24, 60);
+          
+    
+    
+}
+.segundos{
+    font-family: "Montserrat";
+    font-size: 30px;
+    color: black;
+    width: 3rem;
+    border: none;
+    
+   position:relative;
+    
+}
+.intento{
+    font-family: "Montserrat";
+    color: black;
+    width: 15rem;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+   position:relative;
+    top:400px;
+}

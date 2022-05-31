@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/10/2021, 08:24:27 PM
+    Author     : yayah
+*/
+.barraroja{
+    position: relative;
+	top: -20px;
+	left: -9px;
+    width: 1920px;
+	height: 100px;
+       
+	background: linear-gradient(180deg, #E01D4C 0%, rgba(224, 29, 76, 0.68) 100%);
+ }
+
+
+
+
+.busco{
+        position: relative;
+        top: 150px;
+	left: 800px;
+	width: 193px;
+	height: 65px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 35px;
+	background:rgba(224.19,28.96,75.77,1);
+        font-size: 15px;
+        border: #FFFFFF;
+}
+.enco{
+        position: relative;
+        top: 350px;
+	left: 600px;
+	width: 193px;
+	height: 65px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 35px;
+	background:rgba(224.19,28.96,75.77,1);
+        font-size: 15px;
+        border: #FFFFFF;
+        
+}
+
+.imagenempre{
+       top: 35px;
+    left: 15px;
+    width: 160px;
+    height: 38px;
+    overflow: hidden;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+}
+.atras{
+       position: relative;
+    top: 45px;
+    left: 950px;
+    width: 193px;
+	height: 65px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 35px;
+    
+    border-radius: 35px;
+	background:rgba(224.19,28.96,75.77,1);
+        font-size: 15px;
+        border: #FFFFFF;
+    
+    
+}
+input{
+        border: white;
+    }
+    *{
+        font-family: 'Montserrat';
+        font:small-caps bold 12px/30px ;
+        
+    }
+    button{
+            text-transform: uppercase;
+        font-weight: bold;
+    }
+    button:hover{
+        background:rgb(180, 24, 60);
+      }

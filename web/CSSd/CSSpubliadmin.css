@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font:small-caps bold 12px/30px ;
+}
+
+.barraroja{
+    position: relative;
+    top: -20px;
+    left: -9px;
+    width: 1920px;
+    height: 100px;
+    background: linear-gradient(180deg, #E01D4C 0%, rgba(224, 29, 76, 0.68) 100%);
+}
+
+.per{
+    top: 16px;
+    left: 52px;
+    width: 160px;
+    height: 38px;
+    overflow: hidden;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.wrapper2 {
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.box-two {
+    overflow: auto;
+    position: relative;
+    left: 950px;
+    width: 56px;
+    height: 700px;
+    background: rgba(255,255,255,0);
+}
+
+.box {
+    position: relative;
+    float: left;
+    left: 250px;
+    width: 750px;
+    height: 650px;
+    background: rgba(255,255,255,0);
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.rectangulo{
+        position: relative;
+	left: 60px;
+	width: 623px;
+	height: 327px;
+	background:rgba(40,37,37,0.07);
+        -ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+.titupubli{
+        position: relative;
+        top: 10px;
+	left: 250px;
+	width: 182px;
+	height: 34px;
+	overflow: hidden;
+	font-size: 25px;
+	text-align: left;
+	color:#000000;
+}
+
+.preguntallave{
+    position: relative;
+    top: 80px;
+    left: 18px;
+    padding: 10px 5px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background:rgba(224.19,28.96,75.77,1);
+    font-size: 20px;
+}
+
+.publicaciones{
+    position: relative;
+    width: 110px;
+    height: auto;
+    float: right;
+    top: -5%;
+    left: -3%;
+}
+.fecha{
+    position: relative;
+    left: 55%;
+    top: 51%;
+}
+
+.queperdio{
+    left: 20px;
+    position: relative; 
+    top: 47px;
+}
+
+.ventes{
+    top: 83px;
+    left: 100px;
+    width: 45px;
+    height: 40px;
+    position: relative;
+    
+}
+
+.preguntallaves{
+    position: relative;
+    top: 80px;
+    left: 18px;
+    padding: 10px 5px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background:rgba(224.19,28.96,75.77,1);
+    font-size: 20px;
+}
+
+.titupublis{
+    top: -98px;
+    left: 390px;
+    width: 250px;
+    height: 42px;
+    position: relative;
+    font-size: 20px;
+}
+
+.titupublis1{
+    top: -78px;
+    left: 405px;
+    width: 250px;
+    height: 42px;
+    position: relative;
+    font-size: 20px;
+}
+
+.grafica1{
+    
+    position: relative;
+    top: -255px;
+    left: -229px;
+}
+
+.grafica{
+    position: relative;
+    top: -106px;
+    left: -455px;
+}
+
+.grafica{
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(224.19,28.96,75.77,1);
+    font-size: 25px;
+}
+
+.grafica1{
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(224.19,28.96,75.77,1);
+    font-size: 25px;
+}
+
+button:hover{
+    background:rgb(180, 24, 60);
+}
+
+.grafica2{
+    top: -405px;
+    left: 12px;
+    width: 180px;
+    height: 60px;
+    position: relative;  
+}
+
+.entregado-noentregado{
+    position: relative;
+    top: -643px;
+    left: 487px;
+}
+botton{
+    border: white;
+}
